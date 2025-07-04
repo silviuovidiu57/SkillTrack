@@ -72,7 +72,6 @@ skilltrack/
 ---
 
 ## 📸 Screenshots
-Coming soon
 
 <div align="center">
   <img src="./docs/png/image.jpg" width="500" />
