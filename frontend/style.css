@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+  color: #333;
+  min-height: 100vh;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  color: #4a148c;
+}
+
+header p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.form-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-card h2 {
+  margin: 0 0 0.5rem 0;
+  color: #4a148c;
+}
+
+.form-card input,
+.form-card textarea,
+.form-card select {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.form-card button {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.form-card button:hover {
+  background-color: #4a148c;
+}
+
+.skills-grid {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.skill-entry {
+  background: white;
+  border-left: 6px solid #6a1b9a;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.skill-entry:hover {
+  transform: translateY(-2px);
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-header h3 {
+  margin: 0;
+}
+
+.badge {
+  background: #eee;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  color: #6a1b9a;
+}
+
+.entry-actions {
+  margin-top: 0.5rem;
+}
+
+.entry-actions button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
